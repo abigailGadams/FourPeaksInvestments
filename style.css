@@ -1,9 +1,24 @@
-/* Style the video: 100% width and height to cover the entire window */
-h1 {
+/* GENERAL STYLE */
+* {
+  padding: 0;
+}
+
+body {
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+h1,
+h2,
+h3 {
   align-items: center;
   text-align: center;
 }
 
+/* HEADER */
+
+/* NAV  */
+
+/* Video Background */
 #myVideo {
   position: fixed;
   right: 0;
@@ -39,6 +54,7 @@ h1 {
   color: black;
 }
 
+/* FOOTER */
 footer {
   position: fixed;
   left: 0;
