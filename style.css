@@ -73,3 +73,13 @@ footer {
   color: white;
   text-align: center;
 }
+
+.clearfix {
+  overflow: auto;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
