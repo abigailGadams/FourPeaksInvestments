@@ -1,10 +1,14 @@
 /* GENERAL STYLE */
 * {
-  padding: 0;
+  margin: 0;
 }
 
 body {
+  /* display: flex; */
   font-family: Georgia, "Times New Roman", Times, serif;
+  margin: 0;
+  padding: 0;
+  width: 100%;
 }
 
 h1,
@@ -12,6 +16,12 @@ h2,
 h3 {
   align-items: center;
   text-align: center;
+  font-weight: normal;
+  font-size: 4vw;
+  display: flex center;
+  color: #fff;
+  margin: 0;
+  padding: 0;
 }
 
 /* HEADER */
@@ -23,8 +33,8 @@ h3 {
   position: fixed;
   right: 0;
   bottom: 0;
-  min-width: 100%;
-  min-height: 100%;
+  min-width: 100vw;
+  min-height: 100vh;
 }
 
 /* Add some content at the bottom of the video/page */
@@ -34,7 +44,7 @@ h3 {
   background: rgba(0, 0, 0, 0.5);
   color: #f1f1f1;
   width: 100%;
-  padding: 20px;
+  padding: 30px;
 }
 
 /* Style the button used to pause/play the video */
@@ -46,7 +56,6 @@ h3 {
   background: #000;
   color: #fff;
   cursor: pointer;
-  position: center;
 }
 
 #myBtn:hover {
