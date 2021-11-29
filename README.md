@@ -1,6 +1,6 @@
 # FOUR PEAKS INVESTMENTS
 
-&copy; 2021
+&copy;Copyright 2021, Four Peaks Investments
 
 ## Purpose
 
